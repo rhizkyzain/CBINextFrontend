@@ -11,7 +11,14 @@ interface DataItem {
 
 export default function UserPage() {
   const [data, setData] = useState<DataItem[]>([])
-  const [token] = useState<string | null>(() => localStorage.getItem('token'))
+  const [token, setToken] = useState<string | null>(null)
+
+    useEffect(() => {
+    if (typeof window !== 'undefined') {
+        setToken(localStorage.getItem('token'))
+    }
+    }, [])
+
 
   const [showModal, setShowModal] = useState(false)
   const [editingUserId, setEditingUserId] = useState<number | null>(null)
