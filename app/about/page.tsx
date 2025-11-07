@@ -12,23 +12,16 @@ export default function About() {
 
         {/* Content Sections */}
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-2">Our Mission</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-2">Next JS Simple Website</h2>
           <p className="text-gray-700 leading-relaxed">
-            
+             This app is for CBI Takehome Test for Simple Next JS and Golang Crud Website
           </p>
         </section>
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-2">Technology</h2>
-          <p className="text-gray-700 leading-relaxed">
-            This app is built using <code className="bg-gray-100 px-1 py-0.5 rounded text-sm">Next.js</code> and <code className="bg-gray-100 px-1 py-0.5 rounded text-sm">Tailwind CSS</code> for a modern, responsive design.
-          </p>
-        </section>
-
+       
         <section>
           <h2 className="text-2xl font-semibold text-gray-800 mb-2">Contact</h2>
           <p className="text-gray-700 leading-relaxed">
-            You can reach us via email at <span className="text-blue-600 font-medium">rhizky.subiyantara@gmail.com</span>.
+            You can reach me via email at <span className="text-blue-600 font-medium">rhizky.subiyantara@gmail.com</span>.
           </p>
         </section>
       </div>
